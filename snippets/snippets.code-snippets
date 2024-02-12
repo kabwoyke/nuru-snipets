@@ -1,0 +1,66 @@
+{
+    "andika": {
+      "prefix": "andika",
+      "body": ["andika()"],
+      "description": "Log to console"
+    },
+
+    "fanya": {
+        "prefix": "fanya",
+        "body": ["fanya"],
+        "description": "declare a variable"
+      },
+      "unda": {
+        "prefix": "unda",
+        "body": ["unda(parameters) { /* mwili wa function yako */ }"],
+        "description": "function defination"
+      },
+
+      "kwa": {
+        "prefix": "kwa",
+        "body": ["kwa loopControlVariable ktk array { /* mwili wa loop yako */ } \t"],
+        "description": "kwa/for loop declaration"
+      },
+      "kwa": {
+        "prefix": "wakati",
+        "body": ["wakati (condition) \n { /* mwili wa loop yako */ } \t"],
+        "description": "Equivalent to while loop"
+      },
+
+      "kama": {
+        "prefix": "kama",
+        "body": ["kama (condition) \n { \n /* mwili wa kama condition yako */ \n } \t"],
+        "description": "if condition "
+      },
+      "kau": {
+        "prefix": "kau",
+        "body": ["kama (condition)  { \n /* mwili wa kama condition yako */ \n } \n au (condition ingine) { \n/* mwili wa kama condition ingine */ \n} \t"],
+        "description": "else if condition "
+      },
+
+      "jaza": {
+        "prefix": "jaza",
+        "body": ["jaza()"],
+        "description": "get values from the standard output"
+      },
+
+      "fungua": {
+        "prefix": "fungua",
+        "body": ["fungua('data.txt')"],
+        "description": "A function that opens a file"
+      },
+
+      "aina": {
+        "prefix": "aina",
+        "body": ["aina()"],
+        "description": "Determines the type of an object"
+      },
+      "badili": {
+        "prefix": "badili",
+        "body": ["badili(variable){\n \tikiwa 1 { \n \t \tandika('Hello nuru') \n } }"],
+        "description": "Switch statement in nuru"
+      },
+
+      
+      
+  }

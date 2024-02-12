@@ -1,0 +1,26 @@
+{
+  "name": "nuru-snippets",
+  "displayName": "nuru-snippets",
+  "description": "provides helpful snippets for nuru programming",
+  "publisher": "kabwoy",
+  "version": "0.0.2",
+  "icon": "images/nuru.png",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kabwoy/nuru-snippets-vs-code-extension.git"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "nuru",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}

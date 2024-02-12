@@ -1,0 +1,52 @@
+{
+    "name": "Nuru Snippets",
+    "displayName": "Nuru Snippets",
+    "description": "provides some common snippets which will help you save time while coding in nuru",
+    "version": "0.0.2",
+    "publisher": "kabwoy",
+    "engines": {
+      "vscode": "^1.60.0" 
+    },
+    "categories": [
+      "Programming Languages"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kabwoy/nuru-snippets-vs-code-extension.git"
+      },
+    "icon": "images/9.png", 
+    "activationEvents": [
+      "onCommand:extension.andika"
+    ],
+    "main": "./dist/extension.js",
+    "contributes": {
+      "commands": [
+        {
+          "command": "extension.andika",
+          "title": "nuru"
+        }
+      ],
+      "languages": [
+        {
+          "id": "nuru",
+          "aliases": [
+            "Nuru",
+            "nuru"
+          ],
+          "extensions": [
+            ".nr",
+            ".sw"
+          ]
+        }
+      ]
+    },
+    "scripts": {
+      "vscode:prepublish": "npm run compile",
+      "compile": "tsc -p ./",
+      "watch": "tsc -watch -p ./"
+    },
+    "devDependencies": {
+      "typescript": "^4.4.0"
+    }
+  }
+  
